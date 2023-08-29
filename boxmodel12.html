@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="box model.css">
+    <title>CSS box model</title>
+    <style>
+        .contianer {
+            width: 880px;
+           min-height: 400px;
+            border: 1px solid rgb(119, 15, 230);
+            padding: 3px;
+            margin: 5px auto;
+        }
+        
+        .header {
+            width: 850px;
+            height: 200px;
+            border: 5px solid rgb(29, 7, 22);
+            padding: 3px;
+            margin: 5px auto;
+            background-color: #eaeef3;
+            color: aliceblue;
+            
+        }
+        .log{
+            width: 848px;
+            height: 195px;
+        }
+        /*topna*/
+        .topnav {
+            width: 850px;
+            height: 50px;
+            border: 5px solid rgb(42, 214, 68);;
+            padding: 3px;
+            margin: 5px auto;
+            background-color:#3391ef ;
+            font-style: bol;
+            color: rgb(106, 48, 48);
+            
+        }
+        .topnav a{
+        float: left;
+        display: block;
+        color: #100e0e;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 20px;
+    }
+    .topnav a:hover{
+        background-color: #ddd;
+        color: black;
+    }
+/*sub-menu-1*/
+
+
+
+   /*contect*/ 
+    
+    
+        .content {
+            width: 850px;
+           min-height: 420px;
+            border: 4px solid navy;
+            padding: 3px;
+            margin: 5px auto;
+        }
+        .sectionone {
+            width: 255px;
+           min-height: 400px;
+            border: 5px solid #03203d;
+            padding: 3px;
+            margin: 5px; 
+            float: left;
+            background-color:rgb(217, 240, 162);
+        }
+        .sectiontwo {
+           width: 255px;
+           min-height: 400px;
+            border: 5px solid #03203d;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+            background-color:rgb(217, 240, 162);
+         }
+         .sectionthree {
+            width: 255px;
+           min-height: 400px;
+            border: 5px solid #03203d;
+            padding: 3px;
+            margin: 5px;
+            float: left;
+           background-color: rgb(228, 226, 228);
+         }
+         /*footer*/
+         .footer {
+            width: 850px;
+           min-height: 100px;
+            border: 5px solid rgb(37, 32, 36);
+            padding: 3px;
+            margin: 5px auto;
+            background-color: #f1f4f7;
+            color: white;
+         }
+         .loc{
+            float: left;
+            padding: 30px;
+         }
+         .fec{
+            float: left;
+            padding: 30px;
+         }
+         .wat{
+            float: left;
+            padding: 30px;
+         }
+         .us{
+            float: left;
+            padding: 30px;
+         }
+
+    </style>
+</head>
+<body>
+   
+    <style>
+  
+    </style>
+
+    <div class="contianer">
+    <div class="header">
+        <p class="log">
+           <img src="asset/logo.png" alt="test"  width="848px"
+           height="185x">          
+        </p>
+        
+    </div>
+    <div class="topnav"> 
+        <img class="icons" src="asset/log.png" alt="TEST" height="50px" style="float: left;">
+            <a href="#" style="">Home</a>
+            <a href="#">Store</a>
+            <a href="#">Iphone</a>
+            <a href="#">Ipaid</a>
+           
+           
+           <div  class="cta-nav">
+                <img  class="icons" src="asset/search icojn.png" alt="TEST" height="50px" style="float: right;">
+            </div>
+
+    </div>
+    <div class="content">
+        <div class="sectionone"> 
+        <h1 align="center">Iphone SE  </h1>
+       <p  align="center"> THE NEW</p>
+        <P align="center">Love the power.love the price</P>
+        <p align="center"><img src="asset/IPHONE SE.jpg" alt="test" width="255px"></p>
+        <P align="center">  <a href="#">learn more<i class="fa-solid fa-angle-right"></i></a>
+                            <a href="#">Buy<i  class="fa-solid fa-angle-right"></i></a></P>
+        
+       
+        </div>
+        <div class="sectiontwo">
+            <h1 align="center"><b>Iphone 13 pro</b></h1> 
+            <p align="center" >Oh.so.pro</p>
+            <P align="center">Love the power.love the price</P>
+            <p align="center"><img src="asset/iphen 13.jpg" alt="test" width="255px" height="120px"></p>
+            <P align="center"> <h6>BIG DISCONT</H6>
+                <p >OLD<del><mark>900</mark></del> NEW 600</p>
+                 <a href="#">learn more<i class="fa-solid fa-angle-right"></i></a>
+                                <a href="#">Buy<i  class="fa-solid fa-angle-right"></i></a></P>
+     
+      
+        
+        </div>
+        <div class="sectionthree">
+           <h1 align="center">IPAD</h1>
+            <p align="center">light. Bright. full of might.</p>
+            <p align="center"><img src="asset/ipad air.jpg" width="255PX"></p>
+            <P align="center">  <H6>BIG DISCONT</H6>
+                <p >OLD<del><mark>1500</mark></del> NEW 800</p>
+                 <a href="#">Home<i class="fa-solid fa-angle-right"></i></a>
+                <a href="#">Buy<i  class="fa-solid fa-angle-right"></i></a></P>
+            
+        </div>
+    </div>
+    
+     <div class="footer">
+
+     <div class="loc"><img src="asset/location.png" aalt="TEST" height="50px" style="float: left"> 
+
+    <li><a href=" https://www.google.com/maps/d/viewer?mid=1ZqUR88xTRhsljNSaLgEm9yf
+        Gu5c&hl=en&ll=9.487129986036596%2C45.44749189999998&z=8"> hargeisa </a></li>
+   </div>
+   <div class="fec"> <img src="asset/fecbook.jpg"  alt="TEST" height="50px" style="float: left">
+    <li><a href=" https://www.facebook.com/checkpoint/flow?checkpoint_data=%7B%22u%22%3A100037281
+        315263%2C%22t%22%3A167
+        4465362%2C%22step%22%3A0%2C%22n%22%3A%224rrcgn%2BplPQ%3D%22%2C%22inst%22%3A8818722630654
+        76%2C%22f%22%3A1456805897898609%2C%22st%22%3A%22p%22%2C%22aid%22%3Anull%2C%22ca%22%3Anull%2C%22l
+        a%22%3A%22%22%2C%22ta%22%3Anull%2C%22tfvaid%22%3Anull%2C%22tfvasec%22%3Anull%2C%22sat%22%3Anull%2C
+        %22idg%22%3Afalse%2C%22cidue%22%3A%22%22%2C%22tfuln%22%3Anull%2C%22tfvri%22%3Anull%2C%22ed%22%3A%7
+        B%22challenge_chooser_class%22%3Anull%7D%2C%22s%22%3A%22AWV_GEaNGkdFCm5gT_
+        o%22%2C%22cs%22%3A[]%7D" STyle="float:left">Facebook</a></li>
+    </div> 
+   
+   <div  class="wat"> <Img src="asset/WHATSAPP.png" alt="TEST" height="50px">
+    <li><a href="https://wa.me/+252653369885">Whatsapp</a></li>
+</div>
+<div  class="us"> <Img src="asset/user.png" alt="TEST" height="45px">
+    <li><a href="https://wa.me/+252653369885">User</a></li></div>
+    <div>
+  <P style="margin: 0px;">
+            <a href="#" style="float: right;" >Home<i class="fa-solid fa-angle-right"></i></a>
+    
+        </p>
+      
+     </div>
+
+    </div>
+</body>
+</html>
